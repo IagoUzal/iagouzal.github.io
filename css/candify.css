@@ -121,3 +121,23 @@ footer {
   font-size: 1.2rem;
   align-content: center;
 }
+
+@media (max-width: 1024px) {
+  body {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+    "header header header header"
+    "main main main img"
+    "aside aside aside img"
+    "footer footer footer footer";
+  }
+
+
+}
