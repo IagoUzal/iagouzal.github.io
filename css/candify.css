@@ -122,11 +122,7 @@ footer {
   align-content: center;
 }
 
-<<<<<<< HEAD
 @media (max-width: 1024px) {
-=======
-@media (max-width:1024px) {
->>>>>>> ff9eac08c707e694becdf7600c5e00882d1e20b9
   body {
     max-width: 100%;
   }
